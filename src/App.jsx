@@ -1,7 +1,8 @@
 import "./App.css";
 import React, { useState,useEffect } from "react";
 import Navbar from "./components/Navbar";
-import MainWeather from "../src/components/mainweather";
+import MainWeather from "./components/MainWeather";
+
 import FiveDayForecast from "../src/components/fiveday";
 import TodayHighlights from "../src/components/TodayHighlights";
 
