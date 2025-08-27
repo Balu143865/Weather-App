@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useState,useEffect } from "react";
-import Navbar from "../src/components/navbar";
+import Navbar from "./components/Navbar";
 import MainWeather from "../src/components/mainweather";
 import FiveDayForecast from "../src/components/fiveday";
 import TodayHighlights from "../src/components/TodayHighlights";
