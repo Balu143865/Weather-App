@@ -1,12 +1,11 @@
 import "./App.css";
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import MainWeather from "./components/MainWeather";
-
-import FiveDayForecast from "../src/components/fiveday";
-import TodayHighlights from "../src/components/TodayHighlights";
-
+import FiveDayForecast from "./components/FiveDayForecast";   // ✅ Fix
+import TodayHighlights from "./components/TodayHighlights";   // ✅ Fix
 import axios from "axios";
+
 
 const WeatherDashboard = () => {
 //function APP() {
